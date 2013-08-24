@@ -1,0 +1,163 @@
+/* This is mostly cribbed from the Bootstrap 3 documentation site */
+
+body {
+  position: relative; /* For scrollyspy */
+  padding-top: 50px; /* Account for fixed navbar */
+  background-color: #222;
+  color: #c8c8c8;
+}
+
+em {
+  color: #428bca;
+}
+
+strong {
+  color: #fff;
+}
+
+.section-head {
+  color: #ba6b22;
+}
+/* Jumbotron thing */
+
+.bs-masthead {
+  position: relative;
+  padding: 30px 15px;
+  text-align: center;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 1.0);
+}
+.bs-masthead h1 {
+  font-size: 50px;
+  line-height: 1;
+  color: #fff;
+}
+.bs-masthead .btn-outline {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 18px 24px;
+  font-size: 21px;
+}
+
+/* Links to project-level content like the repo, Expo, etc */
+.a3w-masthead-links {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  list-style: none;
+  text-align: center;
+}
+.a3w-masthead-links li {
+  display: inline;
+}
+.a3w-masthead-links li + li {
+  margin-left: 20px;
+}
+.a3w-masthead-links a {
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .a3w-masthead {
+    text-align: left;
+    padding-top:    0px;
+    padding-bottom: 140px;
+  }
+  .a3w-masthead h1 {
+    font-size: 100px;
+  }
+  .a3w-masthead .lead {
+    margin-right: 25%;
+    font-size: 30px;
+  }
+  .a3w-masthead-links {
+    padding: 0;
+    text-align: left;
+  }
+}
+
+
+/* Top nav bar */
+
+.a3w-nav {
+  text-shadow: 0 -1px 0 rgba(0,0,0,.15);
+  background-color: #563d7c;
+  border-color: #463265;
+  box-shadow: 0 1px 0 rgba(255,255,255,.1);
+}
+.a3w-nav .navbar-collapse {
+  border-color: #463265;
+}
+.a3w-nav .navbar-brand {
+  color: #fff;
+}
+.a3w-nav .navbar-nav > li > a {
+  color: #cdbfe3;
+}
+.a3w-nav .navbar-nav > li > a:hover {
+  color: #fff;
+}
+.a3w-nav .navbar-nav > .active > a,
+.a3w-nav .navbar-nav > .active > a:hover {
+  color: #fff;
+  background-color: #463265;
+}
+.a3w-nav .navbar-toggle {
+  border-color: #563d7c;
+}
+.a3w-nav .navbar-toggle:hover {
+  background-color: #463265;
+  border-color: #463265;
+}
+
+/* Hero block */
+.a3w-home {
+  color: #fff;
+  background-color: #000;
+  background-image: url('/assets/images/arma3_home_jumbo.jpg');
+}
+
+/* Footer */
+
+.a3w-footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-top: 110px;
+  color: #ddd;
+  background-color: #222;
+  text-align: center;
+  border-top: 1px solid #444;
+}
+.footer-links {
+  margin: 10px 0;
+  padding-left: 0;
+}
+.footer-links li {
+  display: inline;
+  padding: 0 2px;
+}
+.footer-links li:first-child {
+  padding-left: 0;
+}
+
+@media (min-width: 768px) {
+  .a3w-footer {
+    text-align: left;
+  }
+  .a3w-footer p {
+    margin-bottom: 0;
+  }
+}
+
+/* Buttons */
+
+/* Outline button for use within the docs */
+.btn-outline {
+  color: #428bca;
+  background-color: #fff;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active {
+  color: #fff;
+  background-color: #428bca;
+}
