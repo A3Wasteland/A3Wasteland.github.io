@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <!-- Meta, title, CSS, favicons, etc. -->
+      {% include header.html %}
+      <!-- Place anything custom after this. -->
+    </head>
+    <body class="a3w-home">
+
+      <!-- Docs master nav -->
+      {% include nav-main.html %}
+
+      {{ content }}
+
+      <footer class="a3w-footer" role="contentinfo">
+        <div class="container">
+          <p>Designed and built by Team Wasteland.</p>
+          <ul class="footer-links">
+            <li><a href="http://wasteland.got2dayz.nl/">Forums</a></li>
+            <li class="muted">&middot;</li>
+            <li><a href="{{site.repo}}">Github project</a></li>
+            <li class="muted">&middot;</li>
+            <li><a href="{{ site.repo }}/issues?state=open">Issues</a></li>
+            <li class="muted">&middot;</li>
+            <li><a href="{{ site.repo }}/releases">Releases</a></li>
+          </ul>
+
+        </div>
+      </footer>
+
+    </body>
+</html>
