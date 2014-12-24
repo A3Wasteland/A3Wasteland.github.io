@@ -23,7 +23,9 @@
         <li>
           <a href="http://forums.a3wasteland.com/">Forums</a>
         </li>
-        
+        <li{% if page.slug == "donate" %} class="active"{% endif %}>
+          <a href="{{ page.base_url }}donate.html">Donate</a>
+        </li>
       </ul>
     </nav>
   </div>
