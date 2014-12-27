@@ -46,6 +46,11 @@ strong {
 .section-head {
   color: #fc0;
 }
+.donation-form {
+  width: 100%;
+  text-align: center;
+}
+
 /* Jumbotron thing */
 
 .a3w-masthead {
@@ -160,7 +165,7 @@ strong {
 .a3w-footer {
   padding-top: 30px;
   padding-bottom: 20px;
-  margin-top: 110px;
+  margin-top: 30px;
   color: #ddd;
   background-color: #222;
   text-align: center;
