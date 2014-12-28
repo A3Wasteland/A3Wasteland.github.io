@@ -10,3 +10,5 @@ author:
   email: team@a3wasteland.com
   github: https://github.com/A3Wasteland/ArmA3_Wasteland.Altis
 
+gems:
+  - jekyll-redirect-from
