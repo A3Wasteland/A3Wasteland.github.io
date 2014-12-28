@@ -61,10 +61,6 @@ strong {
   position: relative;
   padding: 30px 15px;
   text-align: center;
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -141px;
 }
 .a3w-masthead h1 {
   font-size: 50px;
@@ -101,8 +97,7 @@ strong {
 @media screen and (min-width: 768px) {
   .a3w-masthead {
     text-align: left;
-    padding-top:    0px;
-    padding-bottom: 460px;
+    padding-top: 0px;
   }
   .a3w-masthead h1 {
     font-size: 100px;
@@ -165,7 +160,8 @@ strong {
   background-color: #fff;
   background-image: url('/assets/images/arma3_home_jumbo.jpg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
 /* Footer */
@@ -173,11 +169,19 @@ strong {
 .a3w-footer {
   padding-top: 30px;
   padding-bottom: 20px;
-  margin-top: 30px;
   color: #ddd;
   background-color: #222;
   text-align: center;
   border-top: 1px solid #444;
+}
+.a3w-wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -111px;
+}
+.a3w-footer, .footer-push  {
+  height: 111px;
 }
 .footer-links {
   margin: 10px 0;
