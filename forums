@@ -1,0 +1,11 @@
+---
+layout: default
+title: Forums
+slug: forums
+base_url: "/"
+---
+
+<div class="col-md-12">
+  <h2 class="section-head">R.I.P. A3Wasteland Forums 2013-2024</h2>
+  <p>If you have questions, join the <a href="https://discord.gg/arma">Arma Discord</a> and DM @agentrev</p>
+</div>
