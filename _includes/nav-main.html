@@ -20,8 +20,8 @@
         <li>
           <a href="https://github.com/A3Wasteland/Release_Files">Releases</a>
         </li>
-        <li>
-          <a href="http://forums.a3wasteland.com/">Forums</a>
+        <li{% if page.slug == "forums" %} class="active"{% endif %}>
+          <a href="{{ page.base_url }}forums">Forums</a>
         </li>
         <li{% if page.slug == "donate" %} class="active"{% endif %}>
           <a href="{{ page.base_url }}donate">Donate</a>
